@@ -21,27 +21,27 @@ Running the Ubuntu
 
 - Step 1. Run VirtualBox. On the program start screen, click the "New" button;
 
-- Step 2. At the first screen of the virtual machine creation wizard, enter a name for the new machine. Then select "Linux" in the "Type" field. Under "Version", choose the operating system, in this case, "Ubuntu". Click the "Next" button;
+- Step 2. At the first screen of the virtual machine creation wizard, we picked a name for the new machine. Then we selected "Linux" in the "Type" field. Under "Version", we choose the operating system, in this case was "Ubuntu";
 
-- Step 3. On the next screen, choose the amount of memory to be used by the virtual machine and then click the "Next" button;
+- Step 3. On the next screen, we choose the amount of memory to be used by the virtual machine and then we clicked the "Next" button;
 
-- Step 4. Under "Hard disk", check the "Create a new virtual hard disk now" option. Click the "Next" button;
+- Step 4. Under "Hard disk", we checked the "Create a new virtual hard disk now" option;
 
-- Step 5. On the "Hard Disk Type" screen, check the "VDI (VirtualBox Disk Image)" option and click the "Next" button;
+- Step 5. On the "Hard Disk Type" screen, we checked the "VDI (VirtualBox Disk Image)" option and clicked the "Next" button;
 
-- Step 5. Under "Physical hard disk storage" check the "Dynamically allocated" option, so the disk file will take up little space and grow as needed. Click the "Next" button;
+- Step 5. Under "Physical hard disk storage" we checked the "Dynamically allocated" option, so the disk file will take up little space and grow as needed. we Clicked the "Next" button;
 
-- Step 6. Under "Location and file size", enter the name of the file to be created, and then select the maximum file size. To confirm everything and create the disk, click the "Create" button;
+- Step 6. Under "Location and file size", we enter the name of the file to be created, and then select the maximum file size. To confirm everything and create the disk, click the "Create" button;
 
-- Step 7. Back in the main VirtualBox window, click on the new virtual machine created and then on the "Settings" button;
+- Step 7. Back in the main VirtualBox window, we clicked on the new virtual machine created and then on the "Settings" button;
 
-- Step 8. Under "Settings", click the item "Storage";
+- Step 8. Under "Settings", we clicked the item "Storage";
 
-- Step 9. Within "Storage", click on the "Empty" item below the optical disc controller (CD / DVD icon). Once this is done, click the arrow next to the "Optical Drive" field. In the menu that appears, press the "Host Drive" option to use the physical CD / DVD drive. If you are going to use an ISO image, click the "Select Virtual Optical Disk File ..." option;
+- Step 9. Within "Storage", click on the "Empty" item below the optical disc controller (CD / DVD icon). and click the arrow next to the "Optical Drive". In the menu that appears, press the "Host Drive" option to use the physical CD / DVD drive. If you are going to use an ISO image, click the "Select Virtual Optical Disk File ..." option;
 
-- Step 10. If you clicked on the "Select Virtual Optical Disk File ..." option, a screen will be displayed where you should indicate where the ISO image is, select and then click the "Open" button;
+- Step 10. IWe clicked on the "Select Virtual Optical Disk File ..." option, a screen will be displayed where you should indicate where the ISO image is, select and then click the "Open" button;
 
-- Step 11. Finally, click on the virtual machine and then the "Start" button.
+- Step 11. Finally,we click on the virtual machine and then the "Start" button.
 
 Installing Ubuntu Server was basically following installation options according to the following screens
 Enter the name of your server.
