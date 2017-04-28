@@ -64,6 +64,23 @@ apt-get update
 
 It will update the Ubuntu package index. That way it will know the latest versions of all its components and programs. After typing the command, the system will prompt for the user's password and then perform the action.
 
+## Apache Web-Server
+
+After that we installed the Apache web server. (with the sudo apt-get upgrade command).
+And with  the command below twe installed the Apache Web Server:
+
+sudo apt-get install apache2 apache2-utils
+
+To change our setting the Apache2 web server will start up at system boot. Ando to do this we typed  the systemctl enable command:
+
+sudo systemctl enable apache2
+
+And to start the service now we entering the command:
+
+sudo systemctl start apache2
+
+ ##  MySQL and PHP and Modules
+ 
 Everything after that was fine, till I started to have problems with the server. At first I thought the problem would be with the installation of the MSQL which the commands are:
 
 Sudo apt-get install mysql-client mysql-server
@@ -78,12 +95,15 @@ After the installation, the page containing the information configuration were w
 Phpinfo();
 ?>
 
-After installing the PHP I could start work again on MSQL and the wordpress (the password and etc…)
-I went to the root of mysql using the command:
+## MySQL database for wordpress
+ 
+Unfortunately, my web site was not working yet. After installing the PHP (again) I could start work on MySQL and the wordpress (the password and etc…). I made an easy one so I could remember when it was asked again to grant all the privileges. 
+
+After, I went to the root of mysql using the command:
 
 Mysql –u root –p
 
-And then I have to change the archive config, using the command:
+And then I had to change the archive config, using the command:
 
 Sudo mv wp-config-sample.php wp-config.php
 
