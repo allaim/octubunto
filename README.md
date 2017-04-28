@@ -39,9 +39,9 @@ Running the Ubuntu
 
 - Step 9. Within "Storage", click on the "Empty" item below the optical disc controller (CD / DVD icon). and click the arrow next to the "Optical Drive". In the menu that appears, press the "Host Drive" option to use the physical CD / DVD drive. If you are going to use an ISO image, click the "Select Virtual Optical Disk File ..." option;
 
-- Step 10. IWe clicked on the "Select Virtual Optical Disk File ..." option, a screen will be displayed where you should indicate where the ISO image is, select and then click the "Open" button;
+- Step 10. We clicked on the "Select Virtual Optical Disk File ..." option, a screen will be displayed where you should indicate where the ISO image is, select and then click the "Open" button;
 
-- Step 11. Finally,we click on the virtual machine and then the "Start" button.
+- Step 11. Finally, we click on the virtual machine and then the "Start" button.
 
 Installing Ubuntu Server was basically following installation options according to the following screens
 Enter the name of your server.
@@ -93,5 +93,5 @@ Sudo rm index.htm
 
 ## Conclusion
 
-After that my webserver was working properly. Although I couldn’t finish my project in class, I should have done the project since the beginning in my own computer because all the updating and installations programs take a lot of time. When I start to work by my own it was much easier to understand and complete the project
+After that my webserver was working properly. Although I couldn’t finish my project in class, I should have done the project since the beginning in my own computer because all the updating and installations programs take a lot of time. When I start to work by my own it was much easier to understand and complete the project.
 
