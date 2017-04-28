@@ -46,18 +46,23 @@ Running the Ubuntu
 Installing Ubuntu Server was basically following installation options according to the following screens
 Enter the name of your server.
 Type your name.
-Enter the user name to create a new account.¬¬
+Enter the user name to create a new account.
 Enter the password for this new user and repeat the password on the next screen.
 To check if the webserver is working. First I have to know the IP of the 
-VM. Type ifconfig 
+VM. Type:
+
+ifconfig 
+
 for Ubuntu instructions I used the following commands:
 
 sudo apt-get upgrade
 sudo apt-get install xorg lxde
 
-I could not execute the last command successfully. This was because using different configurations or other versions of Ubuntu or other Linux distributions. May not work with the commands
+I could not execute the last command successfully. This was because using different configurations or other versions of Ubuntu or other Linux distributions. May not work with the commands, so I used the command:
 
-The first command is apt-get update. It will update the Ubuntu package index. That way it will know the latest versions of all its components and programs. After typing the command, the system will prompt for the user's password and then perform the action.
+apt-get update
+
+It will update the Ubuntu package index. That way it will know the latest versions of all its components and programs. After typing the command, the system will prompt for the user's password and then perform the action.
 
 Everything after that was fine, till I started to have problems with the server. At first I thought the problem would be with the installation of the MSQL which the commands are:
 
@@ -82,11 +87,11 @@ And then I have to change the archive config, using the command:
 
 Sudo mv wp-config-sample.php wp-config.php
 
-And to make my webserver word I had to remove the index.htm from /var/www/html/, using the command:
+And to make my webserver work. I had to remove the index.htm from /var/www/html/, using the command:
 
 Sudo rm index.htm
 
 ## Conclusion
 
- After that my webserver was working properly. Although I couldn’t finish my project in class, I should have done the project since in the beginning in my own computer because all the updating and installations programs take a lot of time. When I start to work by my own it was much easier to understand and complete the project
+After that my webserver was working properly. Although I couldn’t finish my project in class, I should have done the project since the beginning in my own computer because all the updating and installations programs take a lot of time. When I start to work by my own it was much easier to understand and complete the project
 
