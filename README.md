@@ -49,13 +49,14 @@ Type your name.
 Enter the user name to create a new account.
 Enter the password for this new user and repeat the password on the next screen.
 To check if the webserver is working. First I have to know the IP of the 
-VM. Type:
+VM. Typing:
 
 ifconfig 
 
 for Ubuntu instructions I used the following commands:
 
 sudo apt-get upgrade
+
 sudo apt-get install xorg lxde
 
 I could not execute the last command successfully. This was because using different configurations or other versions of Ubuntu or other Linux distributions. May not work with the commands, so I used the command:
