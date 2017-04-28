@@ -79,7 +79,7 @@ And to start the service now we entering the command:
 
 sudo systemctl start apache2
 
- ##  MySQL and PHP and Modules
+## MySQL and PHP 
  
 Everything after that was fine, till I started to have problems with the server. At first I thought the problem would be with the installation of the MSQL which the commands are:
 
